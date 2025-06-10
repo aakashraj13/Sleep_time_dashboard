@@ -5,7 +5,6 @@ import plotly.express as px
 import plotly.graph_objects as go
 from datetime import datetime, date, timedelta
 import numpy as np
-from scipy import stats
 
 # Custom CSS styling
 def apply_custom_style():
@@ -582,3 +581,4 @@ elif st.session_state["page"] == "signup":
     signup_page()
 elif st.session_state["page"] == "dashboard":
     dashboard()
+
